@@ -7,6 +7,6 @@ if ((numero % 2) === 0) {
     console.log(`Il numero ${numero} è pari`);
     alert(`Il numero ${numero} è pari`);
 } else {
-    console.log(`Il numero ${numero} è dispari`);
-    alert(`Il numero ${numero} è dispari`);
+    console.log(`Il numero ${numero} è dispari, il successivo è ${numero + 1}`);
+    alert(`Il numero ${numero} è dispari, il successivo è ${numero + 1}`);
 }
